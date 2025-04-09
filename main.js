@@ -10,4 +10,4 @@ btnGuardar.addEventListener("click", function(){
     console.log("Nombre guardado");
     
     
-})
+});
