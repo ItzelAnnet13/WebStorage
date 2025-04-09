@@ -3,10 +3,10 @@ let mensajeWelcome = document.getElementById("mensajeWelcome");
 
 let btnEliminar = document.getElementById("btnEliminar");
 
-if(nombreRecu){
-    mensajeWelcome.textContent = `Hola!, ${nombreRecu} bienvenido/a de nuevo`;
+if(nombreRecu != null){
+    mensajeWelcome.innerText= `Hola!, ${nombreRecu} bienvenido/a de nuevo`;
 } else{
-    mensajeWelcome.innerHTML = `Por favor ve al index a ingresar tu nombre`;
+    mensajeWelcome.innerText = `Por favor ve al index a ingresar tu nombre`;
 }
 
 btnEliminar.addEventListener("click", function(){
